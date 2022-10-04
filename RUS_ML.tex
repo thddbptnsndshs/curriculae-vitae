@@ -1,0 +1,116 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Compact Academic CV
+% LaTeX Template
+% Version 2.0 (6/7/2019)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Authors:
+% Dario Taraborelli (http://nitens.org/taraborelli/home)
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{article} % Default document font size
+
+\input{structure.tex} % Include the file specifying the document structure and styling
+
+% Set PDF meta-information
+\hypersetup{
+	pdftitle={Alexandra Shikunova - Curriculum vitae},
+	pdfauthor={Alexandra Shikunova}
+}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\graphicspath{ {./images/} }
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	CONTACT AND GENERAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{wrapfigure}{r}{0.25\textwidth} %this figure will be at the right
+    \centering
+    \includegraphics[width=0.25\textwidth]{photo}
+\end{wrapfigure}
+{\LARGE\bfseries Александра Шикунова} % Name
+\bigskip\bigskip\medskip % Whitespace
+
+Москва, Россия\\
+Год рождения: 2002\\
+
+\textit{Контакты:}\\
+\textbf{\href{https://t.me/thnlgrlivrlvdwsbrnwthrssnhrys}{Telegram}}\\
+\textbf{\href{mailto:notalexandrashikunova@gmail.com}{Email}}\\
+\textbf{\href{https://github.com/poisongrapevine}{Github}}
+\medskip % Whitespace
+
+%------------------------------------------------
+
+\section*{Навыки и интересы}
+
+\textbf{Python, SQL, PySpark, Airflow, TeX, JavaScript (начальный уровень)}\\
+\textbf{Интересы}: машинное обучение, NLP, computer vision, MLOps
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section*{Образование}
+
+\years{2021-2023}\textbf{Майнор "Интеллектуальный анализ данных", ФКН НИУ ВШЭ}\\
+\years{2020-2024}\textbf{Бакалаврская программа "Фундаментальная и компьютерная лингвистика", ФГН НИУ ВШЭ, Москва}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section*{Опыт работы}
+
+\years{с 2022} \textbf{Учебный ассистент по Python на майноре "Интеллектуальный анализ данных", ФКН ВШЭ}\\
+\years{с 2022} \textbf{Стажер направления "Машинное обучение и анализ больших данных", ПАО Мегафон, команда чат-бота}\\
+\years{с 2020} \textbf{Репетиторство по английскому языку}\\
+\years{2021-2022}{Стажер-исследователь в НУЛ по формальным моделям в лингвистике, ВШЭ}\\
+\years{2021}Учебный ассистент по дискретной математике, кафедра высшей математики ВШЭ
+
+
+%\section*{Доклады и публикации}
+
+%\years{доклад} \textbf{ТМП 2022} Idioms, NP position and control: evidence from Russian (в соавторстве с Павлом Рудневым)\\
+%\years{доклад} \textbf{SOUL 4} Case and agreement puzzle in the Moksha debitive\\
+%\years{постер, статья} \textbf{ConSOLE 30} Mermaid construction: a case of Kazym Khanty\\
+
+\section*{Учебные проекты}
+
+\years{с 2022}\href{https://github.com/thddbptnsndshs/motustoday}{Инфографика по базе данных о мигрирующих животных Motus} (sql, sklearn, Flask)\\
+\years{с 2021}\href{https://github.com/thddbptnsndshs/idioms}{Анализ данных синтаксического эксперимента с помощью Python} (sklearn)\\
+\years{2021}\href{https://github.com/thddbptnsndshs/nlzlkskprdstvtljsclnhgrppncnvfrmvgrppvk}{Телеграм-бот, анализирующий орфографию групп в VK} (Telegram/VK API)\\
+
+\section*{Языки}
+
+\textbf{Русский} родной\\
+\textbf{Английский} на уровне носителя\\
+\textbf{Немецкий, персидский, польский} на начальном уровне
+
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+
+% Any final footer text such as a URL to the latest version of this CV, last updated date, compiled in XeTeX, etc
+
+%----------------------------------------------------------------------------------------
+
+\end{document}

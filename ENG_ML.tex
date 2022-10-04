@@ -1,0 +1,115 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Compact Academic CV
+% LaTeX Template
+% Version 2.0 (6/7/2019)
+%
+% This template originates from:
+% https://www.LaTeXTemplates.com
+%
+% Authors:
+% Dario Taraborelli (http://nitens.org/taraborelli/home)
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt]{article} % Default document font size
+
+\input{structure.tex} % Include the file specifying the document structure and styling
+
+% Set PDF meta-information
+\hypersetup{
+	pdftitle={Alexandra Shikunova - Curriculum vitae},
+	pdfauthor={Alexandra Shikunova}
+}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\graphicspath{ {./images/} }
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	CONTACT AND GENERAL INFORMATION
+%----------------------------------------------------------------------------------------
+
+\begin{wrapfigure}{r}{0.25\textwidth} %this figure will be at the right
+    \centering
+    \includegraphics[width=0.25\textwidth]{photo}
+\end{wrapfigure}
+{\LARGE\bfseries Alexandra Shikunova} % Name
+\bigskip\bigskip\medskip % Whitespace
+
+Moscow, Russia\\
+Born in 2002\\
+
+\textit{Contacts:}\\
+\textbf{\href{https://t.me/thnlgrlivrlvdwsbrnwthrssnhrys}{Telegram}}\\
+\textbf{\href{mailto:notalexandrashikunova@gmail.com}{Email}}\\
+\textbf{\href{https://github.com/poisongrapevine}{Github}}
+\medskip % Whitespace
+
+%------------------------------------------------
+
+\section*{Skills and interests}
+
+\textbf{Python, SQL, PySpark, Airflow, TeX, JavaScript (for PCIbex)}\\
+\textbf{Interests}: machine learning, NLP, computer vision, MLOps
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section*{Education}
+
+\years{2021-2023} Data science minor, Faculty of computer science, HSE University, Moscow\\
+\years{2020-2024} Computational linguistics major, Faculty of humanities, HSE University, Moscow
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section*{Work experience}
+
+\years{since 2022} \textbf{Teaching assistant in Python for data science minor, HSE}\\
+\years{since 2022} \textbf{Machine learning \& big data intern, NLP team, Megafon}\\
+\years{since 2020} \textbf{Private tutoring in English as a foreign language}\\
+\years{2021-2022}{Research assistant at HSE Laboratory in Formal Models in Linguistics}\\
+\years{2021}Teaching assistant in discrete mathematics
+
+%\section*{Доклады и публикации}
+
+%\years{доклад} \textbf{ТМП 2022} Idioms, NP position and control: evidence from Russian (в соавторстве с Павлом Рудневым)\\
+%\years{доклад} \textbf{SOUL 4} Case and agreement puzzle in the Moksha debitive\\
+%\years{постер, статья} \textbf{ConSOLE 30} Mermaid construction: a case of Kazym Khanty\\
+
+\section*{Pet projects}
+
+\years{2022}\href{https://github.com/thddbptnsndshs/motustoday}{Infographics for the Motus database of migrating animals} (sql, sklearn, Flask)\\
+\years{2021}\href{https://github.com/thddbptnsndshs/idioms}{Statistical analysis of experimental data with Python} (sklearn)\\
+\years{2021}\href{https://github.com/thddbptnsndshs/nlzlkskprdstvtljsclnhgrppncnvfrmvgrppvk}{Telegram bot for orthography checking of VK groups} (Telegram/VK API)\\
+
+\section*{Languages}
+
+\textbf{Russian} native\\
+\textbf{English} proficient\\
+\textbf{German, Persian, Polish} beginner
+
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+
+% Any final footer text such as a URL to the latest version of this CV, last updated date, compiled in XeTeX, etc
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
