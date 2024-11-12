@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.6)  17 APR 2024 21:26
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2022.5.6)  12 NOV 2024 16:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -703,7 +703,6 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/puenc.def
 File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 )
-Package hyperref Info: Option `draft' set `true' on input line 4018.
 Package hyperref Info: Option `unicode' set `true' on input line 4018.
 Package hyperref Info: Hyper figures OFF on input line 4137.
 Package hyperref Info: Link nesting OFF on input line 4142.
@@ -778,7 +777,9 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 86.
 )
 \Hy@SectionHShift=\skip81
-) (/usr/local/texlive/2022/texmf-dist/tex/latex/hanging/hanging.sty
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 83.
+ (/usr/local/texlive/2022/texmf-dist/tex/latex/hanging/hanging.sty
 Package: hanging 2009/09/02 v1.2b hanging paragraphs and punctuation
 \h@ngcommawd=\skip82
 \h@ngfstopwd=\skip83
@@ -892,10 +893,7 @@ LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> TU/latinmodern-math.otf(3)/b/n on inpu
 t line 56.
-
-Package hyperref Warning: Draft mode on.
-
-Package hyperref Info: Link coloring OFF on input line 56.
+Package hyperref Info: Link coloring ON on input line 56.
 (/usr/local/texlive/2022/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -911,6 +909,10 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 56.
 LaTeX Info: Redefining \pageref on input line 56.
 LaTeX Info: Redefining \nameref on input line 56.
+ (./cv.out) (./cv.out)
+\@outlinefile=\write4
+\openout4 = `cv.out'.
+
 \headertextwidth=\skip90
 \headerphotowidth=\skip91
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
@@ -938,15 +940,15 @@ Overfull \hbox (1.46pt too wide) in paragraph at lines 61--61
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
 (Font)              scaled to size 14.0pt on input line 4.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/b/n' will be
-(Font)              scaled to size 10.0pt on input line 22.
+(Font)              scaled to size 10.0pt on input line 34.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 22.
+(Font)              scaled to size 10.0pt on input line 34.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/sl' in size <10> not avai
 lable
 (Font)              Font shape `TU/SourceSansPro(2)/m/it' tried instead on inpu
-t line 22.
+t line 34.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/it' will be
-(Font)              scaled to size 10.0pt on input line 22.
+(Font)              scaled to size 10.0pt on input line 34.
 ) (./cv/professional.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/b/n' will be
 (Font)              scaled to size 10.0pt on input line 17.
@@ -963,12 +965,10 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 LaTeX Font Info:    Font shape `TU/SourceSansPro(2)/m/n' will be
 (Font)              scaled to size 9.0pt on input line 15.
 ) (./cv/honors.tex) (./cv/presentation.tex
-LaTeX Font Info:    Font shape `TU/SourceSansPro(0)/m/n' will be
-(Font)              scaled to size 9.0pt on input line 30.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 30.
+(Font)              scaled to size 8.0pt on input line 21.
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
-(Font)              scaled to size 8.0pt on input line 30.
+(Font)              scaled to size 8.0pt on input line 21.
  [1
 
 ])
@@ -976,14 +976,17 @@ LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/sc' will be
 (./cv/extracurricular.tex
 LaTeX Font Info:    Font shape `TU/SourceSansPro(1)/m/it' will be
 (Font)              scaled to size 10.0pt on input line 23.
-) (./cv/skills.tex) [3] (./cv.aux) ) 
+) (./cv/skills.tex) [3] (./cv.aux)
+Package rerunfilecheck Info: File `cv.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+ ) 
 Here is how much of TeX's memory you used:
- 32311 strings out of 476179
- 657147 string characters out of 5809545
- 1120271 words of memory out of 5000000
- 52508 multiletter control sequences out of 15000+600000
- 471927 words of font info for 101 fonts, out of 8000000 for 9000
+ 32319 strings out of 476179
+ 657145 string characters out of 5809545
+ 1121357 words of memory out of 5000000
+ 52512 multiletter control sequences out of 15000+600000
+ 471919 words of font info for 100 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 114i,12n,118p,540b,467s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 114i,11n,118p,530b,467s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 Output written on cv.pdf (3 pages).
