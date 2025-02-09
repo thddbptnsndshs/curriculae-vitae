@@ -31,6 +31,10 @@
 \usepackage{hyperref}
 \usepackage{graphicx}
 \usepackage{wrapfig}
+\usepackage{paralist}
+\usepackage{multicol}
+\usepackage{pifont}
+
 \graphicspath{ {./images/} }
 
 %----------------------------------------------------------------------------------------
@@ -49,33 +53,31 @@
 {\LARGE\bfseries Александра Шикунова} % Name
 \bigskip\bigskip\medskip % Whitespace
 
+\begin{minipage}[t]{0.35\linewidth}
 Москва, Россия\\
 Год рождения: 2002\\
-
+\end{minipage}
+\begin{minipage}[t]{0.55\linewidth}
 \textit{Контакты:}\\
 \textbf{\href{https://t.me/thnlgrlivrlvdwsbrnwthrssnhrys}{Telegram}} \hspace*{2em}
 \textbf{\href{mailto:notalexandrashikunova@gmail.com}{Email}} \hspace*{2em}
 \textbf{\href{https://github.com/poisongrapevine}{Github}} \hspace*{2em}
-\textbf{\href{https://thddbptnsndshs.github.io/academic_site/}{Личный сайт}} \hspace*{2em}
+\textbf{\href{https://thddbptnsndshs.github.io/academic_site/}{Сайт}} \hspace*{2em}
 \textbf{\href{https://www.hse.ru/org/persons/401664223}{В Вышке}}
 \medskip % Whitespace
 
+\end{minipage}
 %------------------------------------------------
 
-\section*{Навыки и интересы}
+\section*{Навыки}
 
-\textbf{Технические навыки}: Python, SQL, LaTeX, JavaScript (для PCIbex)\\
-\textbf{Интересы}: LLM, диалоговые системы, prompt recovery, теоретическая лингвистика, пробинг, RL
-
-%----------------------------------------------------------------------------------------
-%	EDUCATION
-%----------------------------------------------------------------------------------------
-
-\section*{Образование}
-
-\years{2020-2024}\textbf{Магистратура ``Лингвистическая теория и описание языка'', ФГН НИУ ВШЭ, Москва}\\
-\years{2020-2024}{Бакалаврская программа ``Фундаментальная и компьютерная лингвистика'', ФГН НИУ ВШЭ, Москва}\\
-\years{2021-2023} Майнор ``Интеллектуальный анализ данных'', ФКН НИУ ВШЭ
+\textbf{Языки}: Python, SQL, R\\
+%\textbf{Что я умею}: NLP, LLM, диалоговые системы, инструментальная фонетика\\
+\textbf{Библиотеки/фреймворки}: Huggingface, Pytorch, sklearn, pandas, numpy, nltk, PySpark, FastAPI, Flask, streamlit
+%\vspace*{1em}
+%\noindent\textbf{Что я умею:}
+%
+%	\vspace*{-1.5em}
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE
@@ -83,39 +85,94 @@
 
 \section*{Опыт работы}
 
-\years{с 2023} \textbf{NLP-инженер в центре ИИ блока ``Сервисы'' ПАО Сбербанк}\\
+\years{с 2023} \textbf{NLP-инженер, ПАО Сбербанк, центр ИИ блока ``Сервисы''}
+
+%	\vspace*{-.75em}
+
+\begin{minipage}[t]{0.95\linewidth}
+
+    \begin{multicols}{2}
+\begin{compactitem}[\ding{90}]
+%	\item без LLM: классификация, NER, инфопоиск, дедубликация, суммаризация, regex
+%	\item с LLM: SFT, instruction tuning, small LM, offline RL, prompt tuning
+%	\item доведение моделей до прода, демо, работа со стажерами
+	\item обучила SFT SLM с 400М параметров суммаризировать новости в 17 раз быстрее 7В модели при сравнимом качестве
+	\item для ускорения обработки новостного потока дедублицировала, кластеризовала и суммаризировала новости
+	\item построила единый пайплайн для задач инфопоиска, тестирующий несколько подходов (tf-idf, BM25, эмбеддеры)
+	\item сводила задачи NER и поиска по реестру товаров к regex, над продуктивизацией поиска работала со стажером
+\end{compactitem}
+	\end{multicols}
+	
+\end{minipage}
+
+	\vspace*{.5em}
+
+\years{2022-2023} Аналитик больших данных, ПАО Мегафон, команда чат-бота
+
+%	\vspace*{-.75em}
+\begin{minipage}[t]{0.95\linewidth}
+
+    \begin{multicols}{2}
+\begin{compactitem}[\ding{165}]
+	\item регулярное обновление продовых моделей intent \& entity recognition
+	\item обернула модель кластеризации для разведки новых интентов в приложение для асессоров
+\end{compactitem}
+	\end{multicols}
+
+\end{minipage}
+	
+	\vspace*{.5em}
+
 \years{с 2021} \textbf{Стажер-исследователь в НУЛ по формальным моделям в лингвистике, ВШЭ}\\
-\years{2022-2023} Аналитик больших данных, ПАО Мегафон, команда чат-бота\\
 \years{2020-2023} Преподавание олимпиадного английского в образовательном центре ``Взлёт''\\
 \years{2023} Учебный ассистент по теории вероятности и математической статистике, Школа Лингвистики ВШЭ\\
 \years{2022} Учебный ассистент по Python на майноре ``Интеллектуальный анализ данных'', ФКН ВШЭ\\
-\years{2022} Стажер направления ``Машинное обучение и анализ больших данных'', ПАО Мегафон, команда чат-бота\\
+%\years{2022} Стажер направления ``Машинное обучение и анализ больших данных'', ПАО Мегафон, команда чат-бота\\
 \years{2021} Учебный ассистент по дискретной математике, кафедра высшей математики ВШЭ
 
-%\section*{Доклады и публикации}
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
 
-%\years{доклад} \textbf{ТМП 2022} Idioms, NP position and control: evidence from Russian (в соавторстве с Павлом Рудневым)\\
-%\years{доклад} \textbf{SOUL 4} Case and agreement puzzle in the Moksha debitive\\
-%\years{постер, статья} \textbf{ConSOLE 30} Mermaid construction: a case of Kazym Khanty\\
+\section*{Образование}
+
+\years{2024-2026}\textbf{Магистратура ``Лингвистическая теория и описание языка'', ФГН НИУ ВШЭ, Москва}\\
+\years{2020-2024}{Бакалаврская программа ``Фундаментальная и компьютерная лингвистика'', ФГН НИУ ВШЭ, Москва}\\
+\years{2021-2023} Майнор ``Интеллектуальный анализ данных'', ФКН НИУ ВШЭ
 
 \section*{Личные проекты}
 
-\years{2024}Обработка данных и построение инфографик для изучения фонологии \href{https://github.com/thddbptnsndshs/tolerance_principle_moksha}{мокшанского} \href{https://github.com/thddbptnsndshs/forest_nenets_vowels/tree/develop}{лесного ненецкого}\\
+
+\years{с 2021}Полевые исследования малых языков России: акустическая фонетика, морфосинтаксис\\
+\years{2024}Обработка данных и построение инфографик для изучения фонологии \href{https://github.com/thddbptnsndshs/tolerance_principle_moksha}{мокшанского} и \href{https://github.com/thddbptnsndshs/forest_nenets_vowels/tree/develop}{лесного ненецкого}\\
 %\years{2024}\href{https://github.com/thddbptnsndshs/arguementor}{Телеграм-бот для помощи в подготовке к ЕГЭ по русскому}\\
 \years{2023-2024}\href{https://github.com/thddbptnsndshs/nonce-words}{NonceRNN -- генерация псевдослов с помощью RNN}\\
-\years{2023-2024}\href{https://github.com/thddbptnsndshs/texops}{TeXOps} и \href{https://github.com/thddbptnsndshs/atambibki}{atambibki} -- мои инструменты для создания проектов и управления библиографией в LaTeX\\
 \years{2022}\href{https://github.com/thddbptnsndshs/MessageHDD}{MessageHDD -- метрика лексического разнообразия для корпуса маленьких текстов}\\
 %\years{2022}\href{https://github.com/thddbptnsndshs/motustoday}{Инфографика по базе данных о мигрирующих животных Motus} (sql, sklearn, Flask)\\
-\years{2021}\href{https://github.com/thddbptnsndshs/idioms}{Анализ данных синтаксического эксперимента с помощью Python}\\
+\years{2021}\href{https://github.com/thddbptnsndshs/idioms}{Анализ данных синтаксического эксперимента на Python}
 %\years{2021}\href{https://github.com/thddbptnsndshs/nlzlkskprdstvtljsclnhgrppncnvfrmvgrppvk}{Телеграм-бот, анализирующий орфографию записей в группах VK} (Telegram/VK API)\\
 
 \section*{Языки}
 
-\textbf{Русский} родной\\
-\textbf{Английский} на уровне носителя\\
-\textbf{Французский} средний уровень \\
-\textbf{Немецкий, персидский} на начальном уровне
+%\textbf{Русский} родной\\
+%\textbf{Английский} на уровне носителя, TOEFL C2 (2023)\\
+%\textbf{Французский} средний уровень \\
+%\textbf{Немецкий, персидский} на начальном уровне\\
+%\textbf{Мокшанский, севернохантыйский, лесной ненецкий} полевая работа
 
+\begin{minipage}[t]{0.95\linewidth}
+
+    \begin{multicols}{2}
+\begin{compactitem}[\ding{95}]
+	\item \textbf{Русский} родной
+	\item \textbf{Английский} TOEFL C2 (2023)
+	\item \textbf{Французский} средний уровень
+	\item \textbf{Немецкий, персидский} на начальном уровне
+	\item \textbf{Мокшанский, севернохантыйский, лесной ненецкий} полевая работа
+\end{compactitem}
+	\end{multicols}
+
+\end{minipage}
 
 %----------------------------------------------------------------------------------------
 %	FINAL FOOTER
